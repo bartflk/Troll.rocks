@@ -7,6 +7,9 @@
           width: 100%;
           height: 100%;
           padding-bottom: 56px;
+          padding:auto;
+          margin:auto;
+
   }
   .troll {
       display: block;
@@ -25,7 +28,6 @@
   #site-footer {
     color: white;
     margin-top: 150px;
-    width: 100%;
     height: 56px;
     background-color: #181a1b;
   }
@@ -55,9 +57,6 @@
   }
   .row{
     margin: 0px !important;
-
-  }
-  .mchead{
 
   }
   @font-face {
@@ -108,3 +107,60 @@
     width: 50%;
     margin: 0 auto;
   }
+  .banner{
+    width: 100%;
+    padding-top: 50px;
+  }
+  .fpvid{
+    width: 40vh   !important;
+    height: 40vh   !important;
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ main{  
+    max-width: 100%;
+}
+.navbar-brand{
+  font-size: 30px!important;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+  main{  
+     max-width: 100%;
+ 
+   }
+   .navbar-brand{
+    font-size: 30px!important;
+ }
+ }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main{  
+     max-width: 90%;
+ 
+   }
+   .navbar-brand{
+      font-size: 40px!important;
+   }
+ }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main{  
+     max-width: 80%;
+ 
+   }
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  main{ 
+     max-width: 70%;
+ 
+   }
+ }
