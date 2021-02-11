@@ -119,7 +119,7 @@
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
  main{  
-    max-width: 100%;
+    max-width: 100%!important;
 }
 .navbar-brand{
   font-size: 30px!important;
@@ -129,7 +129,7 @@
 @media only screen and (min-width: 600px) 
 {
   main{  
-     max-width: 100%;
+     max-width: 100%!important;
  
    }
    .navbar-brand{
@@ -139,7 +139,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   main{  
-     max-width: 90%;
+     max-width: 90%!important;
    }
    .navbar-brand{
       font-size: 40px!important;
@@ -149,7 +149,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   main{  
-     max-width: 80%;
+     max-width: 80%!important;
  
    }
  }
@@ -157,7 +157,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   main{ 
-     max-width: 70%;
+     max-width: 70%!important;
  
    }
  }
