@@ -171,3 +171,15 @@
     font-family: RoadRage !important;
     color: white;
  }
+ .maintextna{
+
+  color:white;
+  font-size: 20px !important;
+  font-family: Bebas !important;
+  background-color:rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 20px;
+  margin-bottom: 15px;
+  
+}
